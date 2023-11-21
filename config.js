@@ -13,6 +13,7 @@ if (env.error) throw env.error;
 env = dotenvParse(env.parsed);
 
 let config = {
+    appVersion:'1.0.1',
     server:{
         environment:process.env.ENVIRONMENT,
         port:process.env.PORT,

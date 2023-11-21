@@ -18,7 +18,10 @@
 3. Add the host, port & database name in .env as per your mongodb configuration.
 4. Run "node server.js" to start the server.
 
-# Some Assumnptions Made
-1. I assumed we are connecting only on local. So username & password based configuration is not added while connecting to mongodb.
+
+## Changelog
+
+#### v1.0.1 ( 21-11-2023 )
+1. MongoDB Connection is secured. Authorization credentials need to be provided.
 
 
