@@ -25,7 +25,8 @@ let config = {
         user:process.env.DB_USER,
         password:process.env.DB_PASSWORD,
         name:process.env.DB_NAME
-    }
+    },
+    dirname: __dirname,
 }
 
 export default config;
